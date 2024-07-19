@@ -1,0 +1,83 @@
+live_config_reload = true
+
+[window]
+# Window dimensions
+dimensions = { columns = 0, lines = 0 }  # Default: columns = 0, lines = 0
+
+# Window startup position
+position = "None"  # Default: "None"
+
+# Padding
+padding = { x = 5, y = 5 }  # Default: x = 0, y = 0
+
+# Dynamic padding
+dynamic_padding = false  # Default: false
+
+# Window decorations
+decorations = "Full"  # Default: "Full"
+
+# Opacity
+opacity = 1.0  # Default: 1.0
+
+# Blur (macOS/KDE Wayland only)
+blur = false  # Default: false
+
+# Startup mode
+startup_mode = "Windowed"  # Default: "Windowed"
+
+# Window title
+title = "Alacritty"  # Default: "Alacritty"
+
+# Dynamic title
+dynamic_title = true  # Default: true
+
+# Window class (Linux/BSD only)
+class = { instance = "Alacritty", general = "Alacritty" }  # Default: instance = "Alacritty", general = "Alacritty"
+
+# Decorations theme variant
+decorations_theme_variant = "None"  # Default: "None"
+
+# Resize increments
+resize_increments = false  # Default: false
+
+# Option as Alt (macOS only)
+option_as_alt = "Both"  # Default: "None"
+
+[font]
+size = 16
+
+[colors.primary]
+background = "#070707"
+foreground = "#FFFFFF"
+
+[colors.normal]
+black = "#000000"
+red = "#c91b00"
+green = "#00c200"
+yellow = "#c7c400"
+blue = "#0225c7"
+magenta = "#c930c7"
+cyan = "#00c5c7"
+white = "#c7c7c7"
+
+# Bright colors
+[colors.bright]
+black = "#676767"
+red = "#ff6d67"
+green = "#5ff967"
+yellow = "#fefb67"
+blue = "#6871ff"
+magenta = "#ff76ff"
+cyan = "#5ffdff"
+white = "#fffeff"
+
+# Dim colors
+[colors.dim]
+black = "#0f0f0f"  # Default
+red = "#712b2b"  # Default
+green = "#5f6f3a"  # Default
+yellow = "#a17e4d"  # Default
+blue = "#456877"  # Default
+magenta = "#704d68"  # Default
+cyan = "#4d7770"  # Default
+white = "#8e8e8e"  # Default
