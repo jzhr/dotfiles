@@ -8,7 +8,7 @@ dimensions = { columns = 0, lines = 0 }  # Default: columns = 0, lines = 0
 position = "None"  # Default: "None"
 
 # Padding
-padding = { x = 5, y = 5 }  # Default: x = 0, y = 0
+padding = { x = 5, y = 0 }  # Default: x = 0, y = 0
 
 # Dynamic padding
 dynamic_padding = false  # Default: false
@@ -45,6 +45,7 @@ option_as_alt = "Both"  # Default: "None"
 
 [font]
 size = 16
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 
 [colors.primary]
 background = "#070707"
