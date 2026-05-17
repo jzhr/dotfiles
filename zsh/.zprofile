@@ -9,3 +9,6 @@ export PATH="$PATH:/Users/jason/.local/bin"
 
 export FZF_DEFAULT_COMMAND="rg --files"
 export DISABLE_FZF_KEY_BINDINGS="false"
+
+# Added by Obsidian
+export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
